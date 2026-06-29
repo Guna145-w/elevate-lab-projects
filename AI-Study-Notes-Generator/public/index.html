@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Notes Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📚 AI Study Notes Generator</h1>
+
+    <button id="darkModeBtn">🌙 Dark Mode</button>
+
+    <div class="input-section">
+
+        <label>Enter Topic:</label>
+
+        <input
+            type="text"
+            id="topicInput"
+            placeholder="Example: Artificial Intelligence"
+        >
+
+        <label>Additional Instructions (Optional):</label>
+
+        <textarea
+            id="instructionsInput"
+            placeholder="Example: Give notes suitable for exam preparation"
+        ></textarea>
+
+        <button id="generateBtn">
+            Generate Notes
+        </button>
+
+    </div>
+
+    <div class="output-section">
+
+        <h2>Generated Notes</h2>
+
+        <div id="notesOutput">
+            Your notes will appear here...
+        </div>
+
+        <div class="buttons">
+
+            <button id="copyBtn">
+                Copy Notes
+            </button>
+
+            <button id="downloadBtn">
+                Download Notes
+            </button>
+
+            <button id="clearBtn">
+                Clear
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
